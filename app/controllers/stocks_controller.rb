@@ -42,8 +42,4 @@ class StocksController < ApplicationController
     end
     render json: new_stock
   end
-
-  def destroy
-
-  end
 end
